@@ -5,7 +5,13 @@ const Users = require('./data/db.js');
 
 const server = express();
 
+/* const path = require('path');
+const bodyParser = require('body-parser'); */
+const cors = require('cors');
+
 server.use(express.json());
+
+server.use(cors());
 
 // GET ALL USERS
 server.get('/users', (req, res) => {
