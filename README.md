@@ -1,3 +1,5 @@
+Sascha Majewsky
+
 # Node API Challenge
 
 ## Topics
